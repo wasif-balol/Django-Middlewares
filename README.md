@@ -14,4 +14,12 @@ overriding the admin change_list template</h4>
   <li>A Python virtual env is recommended. See shortcut.</li>
 </ul>
 
+# Install Requirements in a virtual environment:
+
+<p>
+git clone https://github.com/wasif-balol/Django-Middlewares.git<br>
+cd MiddleWareInDepth<br>
+pip install -r requirements.txt<br>
+  python manage.py runserver
+</p>
 
