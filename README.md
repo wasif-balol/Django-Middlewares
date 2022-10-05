@@ -1,6 +1,6 @@
 # Middleware In depth
 
-<h4>This is a python and django based practice application performing demonstrating the functionality of lifecycle
+<h4>This is a python and django based practice application demonstrating the functionality of lifecycle
 methods (process_view, process_exception, process_template_response) in a middleware. In this project an application
 created to analyze the users' os visiting the application and plotting those stats on the graph using Chart.js and
 overriding the admin change_list template</h4>
