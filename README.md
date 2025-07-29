@@ -1,25 +1,45 @@
-# Middleware In depth
+# ⚙️ Django Middleware In-Depth
 
-<h4>This is a python and django based practice application demonstrating the functionality of lifecycle
-methods (process_view, process_exception, process_template_response) in a middleware. In this project an application
-created to analyze the users' os visiting the application and plotting those stats on the graph using Chart.js and
-overriding the admin change_list template</h4>
+> A Django-based demo application showcasing the lifecycle of middleware methods like  
+> `process_view`, `process_exception`, and `process_template_response`.  
+> It also captures and analyzes users’ operating systems and visualizes the data using **Chart.js** by overriding the Django admin `change_list` template.
 
-# Get Started
+---
 
-<ul>
-  <li>Requires Python, Django</li>
-  <li>Python: 3.5|3.6|3.7|3.8|3.9</li>
-  <li>Python: 3.2.3</li>
-  <li>A Python virtual env is recommended. See shortcut.</li>
-</ul>
+## 🚀 Features
 
-# Install Requirements in a virtual environment:
+- 🔍 Middleware lifecycle demonstration (`process_*` methods)
+- 👤 Tracks user operating systems based on request data
+- 📊 Graphical representation of OS stats using **Chart.js**
+- 🎛️ Customization of Django admin `change_list` view
+- 💡 Great for understanding **middleware internals** and admin template overrides
 
-<p>
-git clone https://github.com/wasif-balol/Django-Middlewares.git<br>
-cd MiddleWareInDepth<br>
-pip install -r requirements.txt<br>
-  python manage.py runserver
-</p>
+---
 
+## 🧰 Requirements
+
+- Python: `3.5` – `3.9`
+- Django (version defined in `requirements.txt`)
+- Chart.js (included in static files)
+- Recommended: Use a **Python virtual environment**
+
+---
+
+## 💻 Setup Instructions
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/wasif-balol/Django-Middlewares.git
+
+# 2. Navigate to the project directory
+cd MiddleWareInDepth
+
+# 3. Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate      # 📌 On Windows: venv\Scripts\activate
+
+# 4. Install project dependencies
+pip install -r requirements.txt
+
+# 5. Run the Django development server
+python manage.py runserver
